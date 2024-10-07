@@ -853,7 +853,7 @@ You can combine start and end anchors to match an entire string or line.
     
 ![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/26.png)
     
-    ### [Try by your self >>](https://regex101.com/r/avH165/1)
+ [Try by your self >>](https://regex101.com/r/avH165/1)
     
 
 ### Negative Lookbehind `(?<!...)` :
@@ -925,15 +925,15 @@ You can combine start and end anchors to match an entire string or line.
         - Without the `m` flag: `/^cat/` would only match `"cat"` at the beginning of the entire string.
         - With the `m` flag: `/^cat/m` would match `"cat"` at the beginning of each line in a multi-line string like:
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/34.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/33.png)
 
 These flags can be combined for more powerful pattern matching. For example, `/cat/gim` would find all occurrences of `"cat"`, ignoring case, across multiple lines
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/35.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/34.png)
 
 ### [Try by your hand >>](https://regex101.com/r/hoGMkP/1)
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/36.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/35.png)
 
 ### [Try by your hand >>](https://regex101.com/r/E88WE2/1)
 
@@ -964,9 +964,9 @@ By default, most quantifiers in regular expressions are **greedy**. This means t
 - **String**: `"This is <b>bold</b> and <b>another bold</b> tag"`
 - **Output**: `"<b>bold</b> and <b>another bold</b>"`
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/37.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/36.png)
 
-## [Try by your self >>](https://regex101.com/r/AyAdgJ/1)
+ [Try by your self >>](https://regex101.com/r/AyAdgJ/1)
 
 ## **Lazy Matching** (Non-Greedy Matching) :
 
@@ -985,7 +985,7 @@ By default, most quantifiers in regular expressions are **greedy**. This means t
 - **Output**: `"<b>bold</b>"`
 
 
-## [Try by your self>>](https://regex101.com/r/AyAdgJ/2)
+[Try by your self>>](https://regex101.com/r/AyAdgJ/2)
 
 ---
 
