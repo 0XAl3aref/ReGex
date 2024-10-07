@@ -1,3 +1,13 @@
+# Learn Regular Expression
+
+---
+
+## **What is Regular Expression?**
+
+A **Regular Expression (RegEx)** is a sequence of characters that defines a search pattern. It is primarily used for searching, matching, and manipulating text in strings. Regular expressions are powerful tools that allow for complex string pattern recognition, including matching specific sequences, searching for particular types of characters, or validating formats like email addresses, phone numbers, or dates.
+
+### What is sequence of characters in Regex ?
+
 A **regular expression** consists of a series of characters (letters, digits, symbols) and special operators. These characters can be literal, meaning they match exactly as they appear, or they can be symbolic, representing a broader set of possible characters or patterns.
 
 - **Literal characters:** Regular letters and numbers that stand for themselves in a pattern. For instance, in the regex pattern `"abc"`, each character represents itself, so it will only match the string "abc".
@@ -53,7 +63,7 @@ For example, a search pattern might say:
 > **Metacharacters** are special characters in regular expressions (RegEx) that have specific meanings and functionalities, allowing users to construct complex search patterns. Unlike regular characters, which represent themselves, metacharacters enable operations such as matching multiple characters, specifying the position of matches, defining repetitions, and grouping elements. They play a crucial role in text processing, pattern matching, and data validation.
 > 
 
-https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/image%201.png
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/b16a7aa4-d537-4567-90ff-4edb96b73d39/image.png)
 
 ## **The Full Stop :**
 
@@ -62,7 +72,7 @@ matches any single character. It will not match return or newline characters.
 For example, the regular expression `.ar` means: any character, followed by the
 letter `a`, followed by the letter `r`.
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/image%201.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/09987110-b733-4ad0-8acc-8be683f8ca84/image.png)
 
 >>[Test Regex Here](https://regex101.com/r/xc9GkU/1)<<
 
