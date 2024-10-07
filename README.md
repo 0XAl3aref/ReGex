@@ -489,15 +489,15 @@ Suppose you have a set of IDs like `x1y2z3`, `a5b6c7`, `abcdef`, `g1h2i3`, `1234
             
     ![1_l3V5k0_9R2dZNn8664XnGw.webp](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/15.webp)
             
-        - Suppose we need to search for duplicated words in this article, such as 
+   Suppose we need to search for duplicated words in this article, such as 
         “the the regex” or “hello hello world”. Imagine how challenging this 
         task would be if you were to use the regular search. However, we can 
         easily accomplish it with the regex `\b([A-Za-z]+) +\1\b`
             
-            ![1_wZ3CBCPz86kneuFAgwwrYw.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/d7589fdf-a42b-4ce7-9030-289d1006d1fd/1_wZ3CBCPz86kneuFAgwwrYw.webp)
+   ![1_wZ3CBCPz86kneuFAgwwrYw.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/d7589fdf-a42b-4ce7-9030-289d1006d1fd/1_wZ3CBCPz86kneuFAgwwrYw.webp)
             
         
-        ### [Try by your self >>](https://regex101.com/r/qQB3oy/1)
+   [Try by your self >>](https://regex101.com/r/qQB3oy/1)
         
 
 ---
