@@ -92,7 +92,7 @@ letter `a`, followed by the letter `r`.
 For example, the regular expression `[Tt]he` means: an uppercase
 `T` or lowercase `t`, followed by the letter `h`, followed by the letter `e`.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/a1ffb568-2b1c-4f83-8a18-82aabb674990/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/3.png)
 
 >>[Test Regex Here](https://regex101.com/r/2ITLQ4/1)<<
 
@@ -100,7 +100,7 @@ A period inside a character set, however, means a literal period. The regular
 expression `ar[.]` means: a lowercase character `a`, followed by the letter `r`,
 followed by a period `.` character.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/7b1c5acb-6eb6-4554-b530-60d8d874781a/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/4.png)
 
 >>[Test Regex Here](https://regex101.com/r/wL3xtE/1)<<
 
@@ -289,7 +289,7 @@ character `a`.
  For example, the regular expression
 `[a-z]*` means: any number of lowercase letters in a row.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/009f269a-c137-452d-89e0-c27388b1dd7f/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/5.png)
 
 >>[Test Regex Here](https://regex101.com/r/7m8me5/1)<<
 
@@ -298,7 +298,7 @@ For Example , The `*` symbol can be used with the meta character `.` to match an
 followed by a lowercase `a`, followed by a lowercase `t`,
 followed by zero or more spaces.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/6ef2260a-7539-4376-a07a-121b98b8b319/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/6.png)
 
 >>[Test Regex Here](https://regex101.com/r/gGrwuz/1)<<
 
@@ -312,7 +312,7 @@ For example, the regular expression `c.+t` means: a lowercase `c`, followed by
 at least one character, followed by a lowercase `t`. It needs to be
 clarified that`t` is the last `t` in the sentence.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/dcfdd4c4-5e87-4a35-ad8b-c39abd700427/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/7.png)
 
 >>[Test Regex Here](https://regex101.com/r/Dzf9Aa/1)<<
 
@@ -325,11 +325,11 @@ optional. This symbol matches zero or one instance of the preceding character, T
 For example, the regular expression `[T]?he` means: Optional uppercase
 `T`, followed by a lowercase `h`, followed by a lowercase `e`.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/fa5427ca-2ce4-4dbb-9e26-3f7e6ecbaa30/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/8.png)
 
 >>[Test Regex Here](https://regex101.com/r/cIg9zm/1)<<
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/639f54af-904f-4d07-840c-a3df9309a65d/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/9.png)
 
 >>[Test Regex Here](https://regex101.com/r/kPpO2x/1)<<
 
@@ -341,20 +341,20 @@ For example, the regular expression `[T]?he` means: Optional uppercase
  For example, the regular expression `[0-9]{2,3}` means: Match at least
 2 digits, but not more than 3, ranging from 0 to 9.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/00dcb8e9-654d-4163-b8aa-2b7be1a3a785/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/10.png)
 
 >>[Test Regex Here](https://regex101.com/r/juM86s/1)<<
 
 We can leave out the second number. For example, the regular expression
 `[0-9]{2,}` means: Match 2 or more digits. If we also remove the comma,
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/5865bceb-e3c0-48ba-a864-e18ead199dd6/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/11.png)
 
 >>[Test Regex Here](https://regex101.com/r/Gdy4w5/1)<<
 
 The regular expression `[0-9]{3}` means: Match exactly 3 digits.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/2e6bb52c-e7b2-4826-a0d2-f282f81a7cf8/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/12.png)
 
 >>[Test Regex Here](https://regex101.com/r/Sivu30/1)<<
 
@@ -458,7 +458,7 @@ Suppose you have a set of IDs like `x1y2z3`, `a5b6c7`, `abcdef`, `g1h2i3`, `1234
 
 - Using grouping, you can make the pattern shorter by grouping the `[a-z]\d` sequence and applying an exact quantifier of `3`to it: `([a-z]\d){3}`
     
-    ![1_l3V5k0_9R2dZNn8664XnGw.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/051e8cad-fdbe-4eca-94ce-d1a05980f9a0/1_l3V5k0_9R2dZNn8664XnGw.webp)
+    ![1_l3V5k0_9R2dZNn8664XnGw.webp](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/13.webp)
     
     Let’s say we want to extract the day, month, and year from birthday dates in the format `dd-mm-yyyy`, we can use this regex:
     
@@ -466,7 +466,7 @@ Suppose you have a set of IDs like `x1y2z3`, `a5b6c7`, `abcdef`, `g1h2i3`, `1234
     (\d{1,2})-(\d{1,2})-(\d{4})
     ```
     
-    ![1_aSKtN4Crb8ituVuMBR6IbQ.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/9414a3da-501e-4ae0-ade0-3c898171baf3/1_aSKtN4Crb8ituVuMBR6IbQ.webp)
+    ![1_l3V5k0_9R2dZNn8664XnGw.webp](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/14.webp)
     
     ### Try by your self >>
     
@@ -487,7 +487,7 @@ Suppose you have a set of IDs like `x1y2z3`, `a5b6c7`, `abcdef`, `g1h2i3`, `1234
         - `(a|b|cd)\1` matches `aa`, `bb` or `cdcd`
         - `(\d)(.+)\1+\2?` matches `1a1`, `1a1a`, `1a11`, `1a11a1`
             
-            ![1_0OUH9Kv5HYFjC9TBb1t7MA.webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/3cbe1f2f-09b8-4959-be73-b717eaf31419/1_0OUH9Kv5HYFjC9TBb1t7MA.webp)
+    ![1_l3V5k0_9R2dZNn8664XnGw.webp](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/15.webp)
             
         - Suppose we need to search for duplicated words in this article, such as 
         “the the regex” or “hello hello world”. Imagine how challenging this 
@@ -527,7 +527,8 @@ The regular expression `(T|t)he|car` means: either (an uppercase `T` or a lowerc
 (a lowercase `c`, followed by a lowercase `a`, followed by
 a lowercase `r`). Note that I included the parentheses for clarity, to show that either expression in parentheses can be met and it will match.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/4da77310-056a-4695-af56-4fef721d7d51/image.png)
+![1_l3V5k0_9R2dZNn8664XnGw.webp](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/16.webp)
+
 
 ### [Try by your self >>](https://regex101.com/r/fBXyX0/1)
 
@@ -542,7 +543,7 @@ a lowercase `r`). Note that I included the parentheses for clarity, to show that
     
     Special characters, also known as **metacharacters**, have unique roles in regex. Here are some of the most common ones:
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/def38858-4049-4bef-bb74-f8c97f127c8c/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/17.png)
     
 
 - **Why Escape Special Characters?**
