@@ -584,9 +584,7 @@ character.
 1. **Finding File Extensions**: If you want to match file names ending with `.jpg`, you can write:
 
 <aside>
-➡️
-
-### \.jpg$
+➡️ \.jpg$
 
 </aside>
 
@@ -596,9 +594,7 @@ character.
 
     
     <aside>
-    ➡️
-    
-    ### \*
+➡️ \*
     
     </aside>
     
@@ -609,9 +605,7 @@ character.
 
     
     <aside>
-    ➡️
-    
-    ### \((.*?)\)
+➡️ \((.*?)\)
     
     </aside>
     
