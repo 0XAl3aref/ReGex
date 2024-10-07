@@ -909,11 +909,11 @@ You can combine start and end anchors to match an entire string or line.
         - Without the `g` flag: `/cat/` would stop after matching the first occurrence of `"cat"` in `"cat cat cat"`.
         - With the `g` flag: `/cat/g` would find and match all three occurrences of `"cat"` in `"cat cat cat"`.
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/32.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/31.png)
 
 ### [Try by your self >>](https://regex101.com/r/jnk6gM/1)
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/33.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/32.png)
 
 ### [Try by your self >>](https://regex101.com/r/dO1nef/1)
 
