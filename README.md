@@ -574,9 +574,8 @@ character.
 ### To match the string "hello (world)" literally, use:
 
 <aside>
-➡️
+➡️  hello\s\(world\)
 
-### hello\s\(world\)
 
 </aside>
 
