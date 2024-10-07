@@ -66,7 +66,7 @@ For example, a search pattern might say:
 
 ![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/1.png)
 
-## **The Full Stop :**
+## **2.1 The Full Stop :**
 
 The full stop `.` is the simplest example of a meta character. The meta character `.`
 matches any single character. It will not match return or newline characters.
@@ -79,7 +79,7 @@ letter `a`, followed by the letter `r`.
 
 ---
 
-## **Character Sets :**
+## **2.2 Character Sets :**
 
 > **Character Sets** (also known as **character classes**) in regular expressions are a way to define a group of characters that can be matched at a specific position in a string. By enclosing characters in square brackets `[ ]`, you create a **character set**, allowing the regex engine to match any one of the characters inside the brackets. This provides greater flexibility for pattern matching because a single position in the pattern can match multiple characters.
 > 
@@ -360,7 +360,7 @@ The regular expression `[0-9]{3}` means: Match exactly 3 digits.
 
 ---
 
-## **Capturing Groups :**
+## **2.3 Capturing Groups :**
 
 > A capturing group is a group of subpatterns that is written inside parentheses
 `(...)`. As discussed before, in regular expressions, 
@@ -502,7 +502,7 @@ Suppose you have a set of IDs like `x1y2z3`, `a5b6c7`, `abcdef`, `g1h2i3`, `1234
 
 ---
 
-## **Alternation :**
+## **2.4 Alternation :**
 
 > **Alternation** is a fundamental concept in regular expressions that allows you to match one of several different patterns. It works similarly to a logical OR operator, meaning that if any of the specified patterns match, Now, you may be thinking that character sets and alternation work the same way. But the big difference between character sets and alternation is that character sets work at the character level but alternation works at the expression level.
 > 
@@ -534,7 +534,7 @@ a lowercase `r`). Note that I included the parentheses for clarity, to show that
 
 ---
 
-## **Escaping Special Characters :**
+## **2.5 Escaping Special Characters :**
 
 > In regular expressions, certain characters have special meanings and functions. These **metacharacters** allow for complex pattern matching but can also create confusion when you want to match them literally. To use these characters in a regex pattern as literal characters, you must **escape** them.
 > 
@@ -609,7 +609,7 @@ character.
 
 ---
 
-## Anchors in Regular Expressions :
+## ** 2.6 Anchors in Regular Expressions : **
 
 > **Anchors** are special characters in regular expressions that allow you to specify the position of a match within a string rather than matching a specific character. They help define the boundaries or locations within the string where a pattern should be matched. Anchors do not consume characters in the string; they simply assert that a particular position exists.
 > 
@@ -681,7 +681,7 @@ You can combine start and end anchors to match an entire string or line.
 
 ---
 
-## **Shorthand Character Sets :**
+## **2.7 Shorthand Character Sets :**
 
 > **Shorthand character sets** in regular expressions provide a concise way to match common character classes without having to explicitly list all the characters. They are predefined shortcuts that simplify the regex syntax and improve readability.
 > 
@@ -783,7 +783,7 @@ You can combine start and end anchors to match an entire string or line.
 
 ---
 
-## **Lookarounds** in Regular Expressions **:**
+## **2.8 Lookarounds in Regular Expressions :**
 
 > Lookarounds allow you to assert conditions about what appears before or after a certain position in the text **without consuming characters**. In other words, lookarounds check for conditions without including the matched part in the final match.
 > 
@@ -866,7 +866,7 @@ You can combine start and end anchors to match an entire string or line.
 
 ---
 
-## **Flags**  in Regular Expressions **:**
+## **2.9 Flags in Regular Expressions :**
 
 > Flags are also called modifiers because they modify the output of a regular expression. These flags can be used in any order or combination, and are an integral part of the RegExp.
 > 
@@ -929,7 +929,7 @@ These flags can be combined for more powerful pattern matching. For example, `/c
 
 ---
 
-## Greedy vs Lazy Matching in Regular Expressions :
+## **2.10 Greedy vs Lazy Matching in Regular Expressions : **
 
 > In regular expressions, **greedy** and **lazy (or non-greedy)** matching refer to how much text a quantifier (like `*`, `+`, `?`, `{n,m}`) will match when there are multiple possible matches in a string.
 > 
