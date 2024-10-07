@@ -644,11 +644,11 @@ There are two primary types of anchors in regex:
     - `"Say Hello to the world!"` ➔ **Does Not Match**: The word "Hello" does not occur at the start.
     - `"Hello again!"` ➔ **Matches**: `"Hello"` at the beginning.
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/20.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/sa1.png)
 
 ### [Try by your self >>](https://regex101.com/r/5ljjgB/1)
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/21.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/sa2.png)
 
 ### [Try by your self >>](https://regex101.com/r/jXrKne/1)
 
@@ -665,13 +665,13 @@ There are two primary types of anchors in regex:
     - `"world! is beautiful"` ➔ **Does Not Match**: "world!" is not at the end.
     - `"Say hello to the world!"` ➔ **Does Not Match**: "world!" is not at the end.
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/22.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/20.png)
 
 ### [Try by your self >>](https://regex101.com/r/y4Au4D/1)
 
 ---
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/23.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/21.png)
 
 ### [Try by your self >>](https://regex101.com/r/y4Au4D/1)
 
@@ -696,7 +696,7 @@ You can combine start and end anchors to match an entire string or line.
 > **Shorthand character sets** in regular expressions provide a concise way to match common character classes without having to explicitly list all the characters. They are predefined shortcuts that simplify the regex syntax and improve readability.
 > 
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/24.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/22.png)
 
 ## **`.` (Dot) :**
 
@@ -800,7 +800,7 @@ You can combine start and end anchors to match an entire string or line.
 
 ### Explanation of each type of lookaround:
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/25.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/23.png)
 
 ### **Positive Lookahead `(?=...)` :**
 
@@ -816,7 +816,7 @@ You can combine start and end anchors to match an entire string or line.
     **Explanation**: The `\d` matches a digit, and `(?=px)` asserts that `"px"` must immediately follow, but `"px"` isn't included in the match.
     
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/25.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/24.png)
 
 ### [Try by your self >>](https://regex101.com/r/IDDARt/1)
 
@@ -834,7 +834,7 @@ You can combine start and end anchors to match an entire string or line.
     **Explanation**: The `\d` matches a digit, and `(?!px)` asserts that `"px"` must **not** follow. So, digits followed by `"px"` are excluded.
     
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/26.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/25.png)
 
 ### [Try by your self >>](https://regex101.com/r/V32Npg/1)
 
@@ -851,7 +851,7 @@ You can combine start and end anchors to match an entire string or line.
     
     **Explanation**: The `\d+` matches one or more digits, and `(?<=\$)` asserts that a dollar sign `"$"` must precede the digits.
     
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/27.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/26.png)
     
     ### [Try by your self >>](https://regex101.com/r/avH165/1)
     
@@ -870,7 +870,7 @@ You can combine start and end anchors to match an entire string or line.
     **Explanation**: The `\d+` matches one or more digits, and `(?<!\$)` asserts that the digits must **not** be preceded by a dollar sign `"$"`.
     
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/28.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/27.png)
 
 ### [Try by your self >>](https://regex101.com/r/8Efx5G/1)
 
@@ -881,7 +881,7 @@ You can combine start and end anchors to match an entire string or line.
 > Flags are also called modifiers because they modify the output of a regular expression. These flags can be used in any order or combination, and are an integral part of the RegExp.
 > 
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/29.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/28.png)
 
 ### **`i` - Case Insensitive Matching**:
 
@@ -893,11 +893,11 @@ You can combine start and end anchors to match an entire string or line.
         
         - With the `i` flag: `/apple/i` would match both `"apple"` and `"Apple"`.
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/30.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/29.png)
 
 ### [Try by your self >>](https://regex101.com/r/dpQyf9/1)
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/31.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/30.png)
 
 ### [Try by your self >>](https://regex101.com/r/ahfiuh/1)
 
