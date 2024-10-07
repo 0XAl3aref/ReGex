@@ -527,7 +527,7 @@ The regular expression `(T|t)he|car` means: either (an uppercase `T` or a lowerc
 (a lowercase `c`, followed by a lowercase `a`, followed by
 a lowercase `r`). Note that I included the parentheses for clarity, to show that either expression in parentheses can be met and it will match.
 
-![1_l3V5k0_9R2dZNn8664XnGw.webp](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/16.webp)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/17.png)
 
 
 ### [Try by your self >>](https://regex101.com/r/fBXyX0/1)
@@ -543,7 +543,7 @@ a lowercase `r`). Note that I included the parentheses for clarity, to show that
     
     Special characters, also known as **metacharacters**, have unique roles in regex. Here are some of the most common ones:
     
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/17.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/18.png)
     
 
 - **Why Escape Special Characters?**
@@ -561,7 +561,7 @@ newline. Now, to match `.` in an input string, the regular expression
 `a`, followed by a lowercase `t`, followed by an optional `.`
 character.
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/18.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/19.png)
 
 ### [Try by your self >>](https://regex101.com/r/DOc5Nu/1)
 
@@ -644,11 +644,11 @@ There are two primary types of anchors in regex:
     - `"Say Hello to the world!"` ➔ **Does Not Match**: The word "Hello" does not occur at the start.
     - `"Hello again!"` ➔ **Matches**: `"Hello"` at the beginning.
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/19.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/20.png)
 
 ### [Try by your self >>](https://regex101.com/r/5ljjgB/1)
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/20.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/21.png)
 
 ### [Try by your self >>](https://regex101.com/r/jXrKne/1)
 
@@ -665,13 +665,13 @@ There are two primary types of anchors in regex:
     - `"world! is beautiful"` ➔ **Does Not Match**: "world!" is not at the end.
     - `"Say hello to the world!"` ➔ **Does Not Match**: "world!" is not at the end.
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/21.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/22.png)
 
 ### [Try by your self >>](https://regex101.com/r/y4Au4D/1)
 
 ---
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/22.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/23.png)
 
 ### [Try by your self >>](https://regex101.com/r/y4Au4D/1)
 
@@ -696,7 +696,7 @@ You can combine start and end anchors to match an entire string or line.
 > **Shorthand character sets** in regular expressions provide a concise way to match common character classes without having to explicitly list all the characters. They are predefined shortcuts that simplify the regex syntax and improve readability.
 > 
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/23.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/24.png)
 
 ## **`.` (Dot) :**
 
@@ -800,7 +800,7 @@ You can combine start and end anchors to match an entire string or line.
 
 ### Explanation of each type of lookaround:
 
-![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/24.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/25.png)
 
 ### **Positive Lookahead `(?=...)` :**
 
