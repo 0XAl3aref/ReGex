@@ -983,8 +983,6 @@ By default, most quantifiers in regular expressions are **greedy**. This means t
 ---
 
 <aside>
-🧑🏻‍💻
-
-Creator : Mohamed Saber 
+🧑🏻‍💻  Creator : Mohamed Saber 
 
 </aside>
