@@ -129,10 +129,10 @@ followed by a period `.` character.
     
     ### Steps:
     
-    1. The first character in the text is "h" → it matches because "h" is a lowercase letter.
-    2. The next character "3" is skipped since it's not a lowercase letter.
-    3. "l", "l", and "o" are lowercase letters, so they match.
-    4. After a space, "w", "o", "r", "l", and "d" also match because they are lowercase letters.
+    - The first character in the text is "h" → it matches because "h" is a lowercase letter.
+    - The next character "3" is skipped since it's not a lowercase letter.
+    - "l", "l", and "o" are lowercase letters, so they match.
+    - After a space, "w", "o", "r", "l", and "d" also match because they are lowercase letters.
 
 - Syntax:  `[A-Z]` m**atches:** any uppercase letter from `A` to `Z`.
     
@@ -152,14 +152,14 @@ followed by a period `.` character.
     
     ### Steps:
     
-    1. The text starts with "H" → it matches because "H" is an uppercase letter.
-    2. "e", "l", "l", and "o" are lowercase, so they are skipped.
-    3. "W" matches because it's uppercase.
-    4. "o", "r", "l", and "d" are lowercase, so they are skipped.
-    5. The uppercase "W" in "Welcome" matches.
-    6. "e", "l", "c", "o", and "m" are skipped (lowercase letters).
-    7. The uppercase "T" in "to" matches.
-    8. The numbers and special characters like space and punctuation are skipped.
+    - The text starts with "H" → it matches because "H" is an uppercase letter.
+    - "e", "l", "l", and "o" are lowercase, so they are skipped.
+    - "W" matches because it's uppercase.
+    - "o", "r", "l", and "d" are lowercase, so they are skipped.
+    - The uppercase "W" in "Welcome" matches.
+    - "e", "l", "c", "o", and "m" are skipped (lowercase letters).
+    - The uppercase "T" in "to" matches.
+    - The numbers and special characters like space and punctuation are skipped.
 
 - **Syntax:** `[0-9]` matches any digit from `0` to `9`.
     
@@ -179,10 +179,10 @@ followed by a period `.` character.
     
     ### Steps:
     
-    1. The text starts with "Phone number:" which has no digits, so they are ignored.
-    2. The digits "1", "2", and "3" match.
-    3. The digits "4", "5", and "6" match after the hyphen.
-    4. Finally, "7", "8", "9", and "0" match after another hyphen.
+    - The text starts with "Phone number:" which has no digits, so they are ignored.
+    - The digits "1", "2", and "3" match.
+    - The digits "4", "5", and "6" match after the hyphen.
+    - Finally, "7", "8", "9", and "0" match after another hyphen.
     
     ### 
     
