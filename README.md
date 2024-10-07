@@ -596,9 +596,7 @@ character.
     <aside>
 ➡️ \*
     
-    </aside>
     
-
 ---
 
 1. **Matching Parentheses**: To search for text in parentheses, such as `(example)`:
@@ -606,8 +604,7 @@ character.
     
     <aside>
 ➡️ \((.*?)\)
-    
-    </aside>
+
     
 
 ---
