@@ -984,6 +984,7 @@ By default, most quantifiers in regular expressions are **greedy**. This means t
 - **String**: `"This is <b>bold</b> and <b>another bold</b> tag"`
 - **Output**: `"<b>bold</b>"`
 
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/37.png)
 
 [Try by your self>>](https://regex101.com/r/AyAdgJ/2)
 
