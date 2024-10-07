@@ -561,7 +561,7 @@ newline. Now, to match `.` in an input string, the regular expression
 `a`, followed by a lowercase `t`, followed by an optional `.`
 character.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/37fbc80d-0cf4-48ae-98ae-154460da38cd/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/18.png)
 
 ### [Try by your self >>](https://regex101.com/r/DOc5Nu/1)
 
@@ -644,11 +644,11 @@ There are two primary types of anchors in regex:
     - `"Say Hello to the world!"` ➔ **Does Not Match**: The word "Hello" does not occur at the start.
     - `"Hello again!"` ➔ **Matches**: `"Hello"` at the beginning.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/1f6e377c-d97d-4540-b144-ddfa47590994/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/19.png)
 
 ### [Try by your self >>](https://regex101.com/r/5ljjgB/1)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/f9d839d9-7942-43d8-bc79-1389e01fbe70/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/20.png)
 
 ### [Try by your self >>](https://regex101.com/r/jXrKne/1)
 
@@ -665,13 +665,13 @@ There are two primary types of anchors in regex:
     - `"world! is beautiful"` ➔ **Does Not Match**: "world!" is not at the end.
     - `"Say hello to the world!"` ➔ **Does Not Match**: "world!" is not at the end.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/267fc8c0-c6d5-49e3-83f7-f66f1c68821f/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/21.png)
 
 ### [Try by your self >>](https://regex101.com/r/y4Au4D/1)
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/fc0b4b54-2e1a-4fa7-bbf5-07ff5181f6d2/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/22.png)
 
 ### [Try by your self >>](https://regex101.com/r/y4Au4D/1)
 
@@ -696,7 +696,7 @@ You can combine start and end anchors to match an entire string or line.
 > **Shorthand character sets** in regular expressions provide a concise way to match common character classes without having to explicitly list all the characters. They are predefined shortcuts that simplify the regex syntax and improve readability.
 > 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/9198d06b-1cc3-4867-aac9-7a8836275868/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/23.png)
 
 ## **`.` (Dot) :**
 
@@ -800,7 +800,7 @@ You can combine start and end anchors to match an entire string or line.
 
 ### Explanation of each type of lookaround:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/49986e83-32b7-461e-84e5-300392625029/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/24.png)
 
 ### **Positive Lookahead `(?=...)` :**
 
@@ -816,7 +816,7 @@ You can combine start and end anchors to match an entire string or line.
     **Explanation**: The `\d` matches a digit, and `(?=px)` asserts that `"px"` must immediately follow, but `"px"` isn't included in the match.
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/19dc267d-390d-4fe4-a586-07d1a00dfc41/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/25.png)
 
 ### [Try by your self >>](https://regex101.com/r/IDDARt/1)
 
@@ -834,7 +834,7 @@ You can combine start and end anchors to match an entire string or line.
     **Explanation**: The `\d` matches a digit, and `(?!px)` asserts that `"px"` must **not** follow. So, digits followed by `"px"` are excluded.
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/baa6cabe-8162-4ed4-b517-7e55af4fd725/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/26.png)
 
 ### [Try by your self >>](https://regex101.com/r/V32Npg/1)
 
@@ -851,7 +851,7 @@ You can combine start and end anchors to match an entire string or line.
     
     **Explanation**: The `\d+` matches one or more digits, and `(?<=\$)` asserts that a dollar sign `"$"` must precede the digits.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/d1c6f688-14d4-4292-8d6f-084c4d4d4ea3/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/27.png)
     
     ### [Try by your self >>](https://regex101.com/r/avH165/1)
     
@@ -870,7 +870,7 @@ You can combine start and end anchors to match an entire string or line.
     **Explanation**: The `\d+` matches one or more digits, and `(?<!\$)` asserts that the digits must **not** be preceded by a dollar sign `"$"`.
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/39d6ccfc-79e3-42a0-a72b-200374b3ef04/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/28.png)
 
 ### [Try by your self >>](https://regex101.com/r/8Efx5G/1)
 
@@ -881,7 +881,7 @@ You can combine start and end anchors to match an entire string or line.
 > Flags are also called modifiers because they modify the output of a regular expression. These flags can be used in any order or combination, and are an integral part of the RegExp.
 > 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/ff75ce2d-63f7-4b4b-a615-58c7d1254343/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/29.png)
 
 ### **`i` - Case Insensitive Matching**:
 
@@ -893,11 +893,11 @@ You can combine start and end anchors to match an entire string or line.
         
         - With the `i` flag: `/apple/i` would match both `"apple"` and `"Apple"`.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/71427caf-94c8-4f97-9074-80e8da43ee66/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/30.png)
 
 ### [Try by your self >>](https://regex101.com/r/dpQyf9/1)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/e178bff5-d3b9-4f37-ad0c-3c302fdf4651/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/31.png)
 
 ### [Try by your self >>](https://regex101.com/r/ahfiuh/1)
 
@@ -909,11 +909,11 @@ You can combine start and end anchors to match an entire string or line.
         - Without the `g` flag: `/cat/` would stop after matching the first occurrence of `"cat"` in `"cat cat cat"`.
         - With the `g` flag: `/cat/g` would find and match all three occurrences of `"cat"` in `"cat cat cat"`.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/bade83de-f823-4f9f-9b3c-2d5a940f48bb/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/32.png)
 
 ### [Try by your self >>](https://regex101.com/r/jnk6gM/1)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/19ee34ad-91cb-4c1f-b403-3f563e118edc/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/33.png)
 
 ### [Try by your self >>](https://regex101.com/r/dO1nef/1)
 
@@ -925,15 +925,15 @@ You can combine start and end anchors to match an entire string or line.
         - Without the `m` flag: `/^cat/` would only match `"cat"` at the beginning of the entire string.
         - With the `m` flag: `/^cat/m` would match `"cat"` at the beginning of each line in a multi-line string like:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/a9759652-b58b-446b-aaee-32f69e2e59d3/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/34.png)
 
 These flags can be combined for more powerful pattern matching. For example, `/cat/gim` would find all occurrences of `"cat"`, ignoring case, across multiple lines
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/108dbb68-ad2e-4d58-835b-55de52d93a9c/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/35.png)
 
 ### [Try by your hand >>](https://regex101.com/r/hoGMkP/1)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/8527165e-0563-40fb-86a3-eb8c82ced3fe/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/36.png)
 
 ### [Try by your hand >>](https://regex101.com/r/E88WE2/1)
 
@@ -964,7 +964,7 @@ By default, most quantifiers in regular expressions are **greedy**. This means t
 - **String**: `"This is <b>bold</b> and <b>another bold</b> tag"`
 - **Output**: `"<b>bold</b> and <b>another bold</b>"`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/17ebb243-cc9c-4d24-aae7-334b6ce75986/image.png)
+![image alt](https://github.com/0XAl3aref/Regullar-Expresion-/blob/main/Images/37.png)
 
 ## [Try by your self >>](https://regex101.com/r/AyAdgJ/1)
 
@@ -984,7 +984,6 @@ By default, most quantifiers in regular expressions are **greedy**. This means t
 - **String**: `"This is <b>bold</b> and <b>another bold</b> tag"`
 - **Output**: `"<b>bold</b>"`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/545e201c-4155-4bcd-a5ac-7c18c2eaa1e4/bc42a605-30ac-4d26-83e7-3ee7e61a1ee5/image.png)
 
 ## [Try by your self>>](https://regex101.com/r/AyAdgJ/2)
 
