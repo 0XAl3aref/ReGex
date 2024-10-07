@@ -44,7 +44,7 @@ For example, a search pattern might say:
 
 ## Fundamental element of  regular expressions :
 
-## **Basic Matchers :**
+## **1.0 Basic Matchers :**
 
 > **Basic matchers** are fundamental elements that allow you to search for and match specific sequences of characters in text. Understanding these basic matchers is essential for constructing effective regular expressions.
 > 
@@ -59,7 +59,7 @@ For example, a search pattern might say:
 
 [Try another example by your hands .](https://regex101.com/r/dmRygT/1)
 
-## **Meta Characters :**
+## **2.0 Meta Characters :**
 
 > **Metacharacters** are special characters in regular expressions (RegEx) that have specific meanings and functionalities, allowing users to construct complex search patterns. Unlike regular characters, which represent themselves, metacharacters enable operations such as matching multiple characters, specifying the position of matches, defining repetitions, and grouping elements. They play a crucial role in text processing, pattern matching, and data validation.
 > 
